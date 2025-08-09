@@ -1,0 +1,21 @@
+{
+  "name": "relieve-theme",
+  "displayName": "Relieve Theme",
+  "description": "Relieve is a theme inspired by Alabaster philosophy and One Dark and Github aesthetics vibes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Relieve",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Relieve-color-theme.json"
+      }
+    ]
+  }
+}
