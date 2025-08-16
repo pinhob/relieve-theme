@@ -1,25 +1,45 @@
 {
 	"name": "Relieve",
 	"colors": {
-		"editor.foreground": "#eeffff",
+		"activityBar.activeBorder": "#E5C07B",
+		"activityBar.background": "#24292e",
+		"activityBar.foreground": "#D1D5DC",
+		"debugToolBar.background": "#1286e4",
 		"editor.background": "#24292e",
+		"editor.foreground": "#eeffff",
 		"editorBracketHighlight.foreground1": "#E5C07B",
 		"editorBracketHighlight.foreground2": "#ffab70",
 		"editorBracketHighlight.foreground3": "#b392f0",
 		"editorBracketHighlight.foreground4": "#79b8ff",
 		"editorBracketHighlight.foreground5": "#ffab70",
 		"editorBracketHighlight.foreground6": "#b392f0",
-		"editorBracketMatch.background": "#17e5e650",
-		"editorBracketMatch.border": "#17e5e600",
-		"activityBar.background": "#24292e",
+		"editor.lineHighlightBackground": "#2b3036",
+		"editor.selectionBackground": "#3392ff44",
+		"editorWidget.background": "#1f2428",
+		"menu.background": "#1f2428",
+		"minimapGutter.addedBackground": "#109868",
+		"minimapGutter.deletedBackground": "#9a353d",
+		"minimapGutter.modifiedBackground": "#948b60",
+		"scrollbar.shadow": "#00000088",
+		"scrollbarSlider.activeBackground": "#6a737d88",
+		"scrollbarSlider.background": "#6a737d33",
+		"scrollbarSlider.hoverBackground": "#6a737d44",
 		"sideBar.background": "#1f2428",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"sideBarSectionHeader.border": "#21252b",
+		"sideBarSectionHeader.background": "#1f2428",
+		"sideBarStickyScroll.shadow": "#1f2428",
 		"statusBar.background": "#24292e",
-		// "statusBar.debuggingBackground": "#cc6633",
-		// "statusBar.debuggingBorder": "#ff000000",
-		// "statusBar.debuggingForeground"t: "#ffffff",
 		"statusBar.foreground": "#9da5b4",
+		"titleBar.activeBackground": "#24292e",
+		"titleBar.activeForeground": "#9da5b4",
+		"tab.activeForeground": "#D1D5DC",
+		"tab.activeBorderTop": "#e5c07b",
+		"tab.inactiveForeground": "#9da5b4",
+		"tab.inactiveBackground": "#1f2428",
+		"tab.hoverBackground": "#24292e",
+		// "statusBar.debuggingBorder": "#ff000000",
+		// "statusBar.debuggingBackground": "#cc6633",
+		// "statusBar.debuggingForeground"t: "#ffffff",
 		// "statusBar.noFolderBackground": "#21252b",
 		// "statusBarItem.remoteBackground": "#4d78cc",
 		// "statusBarItem.remoteForeground": "#f8fafd",
@@ -79,6 +99,11 @@
 			"scope": [
 				"entity.name",
 				"entity.name.function",
+				"support.function.any-method",
+				"entity.name.function.ts",
+				"variable.function",
+				"support.function.console",
+				"keyword.other.special-method",
 			],
 			"settings": {
 				"foreground": "#79B8FF"
@@ -97,7 +122,7 @@
 			"name": "Variable names",
 			"scope": [
 				"variable.other.constant",
-				"variable.other.readwrite",
+				"meta.definition.variable",
 			],
 			"settings": {
 				"foreground": "#A2CBFA"
@@ -114,7 +139,7 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#660000",
+				"foreground": "#660055",
 			}
 		},
 		{
@@ -142,7 +167,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#316BCD"
+				"foreground": "#6796E6"
 			}
 		},
 		{
@@ -154,13 +179,13 @@
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#CD3131"
+				"foreground": "#F44747"
 			}
 		},
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#800080"
+				"foreground": "#B267E6"
 			}
 		},
 		{
@@ -237,20 +262,6 @@
 		// 	],
 		// 	"settings": {
 		// 		"foreground": "#F78C6C"
-		// 	}
-		// },
-		// {
-		// 	"name": "CSS Class and Support",
-		// 	"scope": [
-		// 		"source.css support.type.property-name",
-		// 		"source.sass support.type.property-name",
-		// 		"source.scss support.type.property-name",
-		// 		"source.less support.type.property-name",
-		// 		"source.stylus support.type.property-name",
-		// 		"source.postcss support.type.property-name"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#B2CCD6"
 		// 	}
 		// },
 	]
