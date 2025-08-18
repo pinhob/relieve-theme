@@ -103,7 +103,7 @@
 				"entity.name.function.ts",
 				"variable.function",
 				"support.function.console",
-				"keyword.other.special-method",
+				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#79B8FF"
@@ -112,17 +112,17 @@
 		{
 			"name": "Import",
 			"scope": [
-				"variable.other.readwrite.alias",
+				"variable.other.readwrite.alias"
 			],
 			"settings": {
 				"foreground": "#9fc490"
-			},
+			}
 		},
 		{
 			"name": "Variable names",
 			"scope": [
 				"variable.other.constant",
-				"meta.definition.variable",
+				"meta.definition.variable"
 			],
 			"settings": {
 				"foreground": "#A2CBFA"
@@ -139,7 +139,7 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#660055",
+				"foreground": "#660055"
 			}
 		},
 		{
@@ -149,19 +149,19 @@
 				"meta.separator"
 			],
 			"settings": {
-				"foreground": "#65737E",
+				"foreground": "#65737E"
 			}
 		},
 		{
 			"scope": "meta.diff.header.from-file",
 			"settings": {
-				"foreground": "#65737E",
+				"foreground": "#65737E"
 			}
 		},
 		{
 			"scope": "meta.diff.header.to-file",
 			"settings": {
-				"foreground": "#434343",
+				"foreground": "#434343"
 			}
 		},
 		{
@@ -192,7 +192,7 @@
 			"name": "CSS Property",
 			"scope": [
 				"meta.property-name.css",
-				"support.type.property-name.css",
+				"support.type.property-name.css"
 			],
 			"settings": {
 				"foreground": "#A2CBFA"
@@ -255,6 +255,15 @@
 				"fontStyle": "italic"
 			}
 		},
+		{
+			"name": "CSS Class name",
+			"scope": [
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		}
 		// {
 		// 	"name": "JSON Key - Level 2",
 		// 	"scope": [
